@@ -1,5 +1,6 @@
 let button = document.querySelector("#darkmode") ;
 let silly = document.querySelector("#lightmode") ;
+let crazy = document.querySelector("#nextpage") ;
 // select the element with id of darkmode
 
 // Function to handle button click
@@ -15,8 +16,13 @@ function handleClick() {
     alert('Button was clicked!')
     document.querySelector("body").style.cssText = "color: black; background-color: white;"
   }
+
+  function handleClicknextpage(){
+    alert('Onto the next page')
+  }
  
   // Add the click event listener
   button.addEventListener('click', handleClick);
   silly.addEventListener('click', handleClicklightmode);
+  crazy.addEventListener('click', handleClicknextpage);
   
