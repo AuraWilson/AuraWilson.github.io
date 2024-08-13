@@ -5,10 +5,3 @@
 body {
     background-color: rgb(197, 222, 205);
 }
-
-text-center {
-    display: flex;
-    justify-content: center;
-  }
-  
-  
