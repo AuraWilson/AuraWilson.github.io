@@ -2,6 +2,8 @@ let button = document.querySelector("#darkmode") ;
 let silly = document.querySelector("#lightmode") ;
 let crazy = document.querySelector("#nextpage") ;
 let back = document.querySelector("#lastpage") ;
+let social = document.querySelector("#socialmedia")
+let media = document.querySelector("#media")
 // select the element with id of darkmode
 
 // Function to handle button click
@@ -21,13 +23,31 @@ function handleClick() {
   function handleClicknextpage(){
     alert('Onto the next page')
   }
+
+  function myFunction() {
+    var x = document.getElementById("snackbar");
+    {x.className = "show";
+  
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
   
   function handleClicklastpage(){
     alert('Returning to home')
+  }
+
+  function handleClicksocialmedia(){
+    alert('Onto my socials')
+  }
+
+  function handleClickmedia(){
+    alert('Onto my socials')
   }
  
   // Add the click event listener
   button.addEventListener('click', handleClick);
   silly.addEventListener('click', handleClicklightmode);
   crazy.addEventListener('click', handleClicknextpage);
-  crazy.addEventListener('click', handleClicklastpage);
+  back.addEventListener('click', handleClicklastpage);
+  social.addEventListener('click', handleClicksocialmedia);
+  media.addEventListener('click', handleClickmedia);
+

@@ -5,3 +5,11 @@
 body {
     background-color: rgb(197, 222, 205);
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20;
+}
+
