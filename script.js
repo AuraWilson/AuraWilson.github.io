@@ -23,13 +23,6 @@ function handleClick() {
   function handleClicknextpage(){
     alert('Onto the next page')
   }
-
-  function myFunction() {
-    var x = document.getElementById("snackbar");
-    {x.className = "show";
-  
-      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-    }
   
   function handleClicklastpage(){
     alert('Returning to home')
