@@ -23,7 +23,7 @@ function handleClick() {
   function handleClicknextpage(){
     alert('Onto the next page')
   }
-}
+  
   function handleClicklastpage(){
     alert('Returning to home')
   }
